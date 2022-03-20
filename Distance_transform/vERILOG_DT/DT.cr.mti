@@ -1,0 +1,17 @@
+/home/M10bob208/vERILOG/DT.v {1 {vlog -work work -vopt -stats=none /home/M10bob208/vERILOG/DT.v
+QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+-- Compiling module DT
+
+Top level modules:
+	DT
+
+} {} {}} /home/M10bob208/vERILOG/testfixture.v {1 {vlog -work work -vopt -stats=none /home/M10bob208/vERILOG/testfixture.v
+QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+-- Compiling module testfixture
+-- Compiling module sti_ROM
+-- Compiling module res_RAM
+
+Top level modules:
+	testfixture
+
+} {} {}}
