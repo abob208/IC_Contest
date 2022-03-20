@@ -1,0 +1,464 @@
+# //  Questa Sim-64
+# //  Version 10.6a linux_x86_64 Mar 16 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project DT
+# reading /usr/cad/mentor/Questa_Sim/10.6a/questasim/linux_x86_64/../modelsim.ini
+# Loading project test_DC
+# Compile of DT_syn.v was successful.
+# Compile of testfixture.v was successful.
+vsim work.testfixture
+# vsim work.testfixture 
+# Start time: 22:17:03 on Sep 04,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(255): (vopt-2685) [TFMPC] - Too few port connections for '\sti_addr_reg[9] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(255): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(256): (vopt-2685) [TFMPC] - Too few port connections for '\sti_addr_reg[4] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(256): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(257): (vopt-2685) [TFMPC] - Too few port connections for '\sti_addr_reg[5] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(257): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(258): (vopt-2685) [TFMPC] - Too few port connections for '\sti_addr_reg[6] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(258): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(259): (vopt-2685) [TFMPC] - Too few port connections for '\sti_addr_reg[7] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(259): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(260): (vopt-2685) [TFMPC] - Too few port connections for '\sti_addr_reg[8] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(260): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(261): (vopt-2685) [TFMPC] - Too few port connections for '\sti_addr_reg[1] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(261): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(262): (vopt-2685) [TFMPC] - Too few port connections for '\sti_addr_reg[2] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(262): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(263): (vopt-2685) [TFMPC] - Too few port connections for '\sti_addr_reg[3] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(263): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(264): (vopt-2685) [TFMPC] - Too few port connections for '\sti_addr_reg[0] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(264): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(265): (vopt-2685) [TFMPC] - Too few port connections for '\bc_pixel_reg[7] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(265): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(266): (vopt-2685) [TFMPC] - Too few port connections for '\bc_pixel_reg[0] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(266): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(269): (vopt-2685) [TFMPC] - Too few port connections for '\bc_pixel_reg[1] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(269): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(270): (vopt-2685) [TFMPC] - Too few port connections for '\state_reg[0] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(270): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(271): (vopt-2685) [TFMPC] - Too few port connections for '\bc_pixel_reg[3] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(271): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(273): (vopt-2685) [TFMPC] - Too few port connections for '\bc_pixel_reg[4] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(273): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(274): (vopt-2685) [TFMPC] - Too few port connections for '\bc_pixel_reg[2] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(274): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(277): (vopt-2685) [TFMPC] - Too few port connections for '\bc_pixel_reg[5] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(277): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(281): (vopt-2685) [TFMPC] - Too few port connections for '\count_reg[10] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(281): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(282): (vopt-2685) [TFMPC] - Too few port connections for '\count_reg[9] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(282): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(283): (vopt-2685) [TFMPC] - Too few port connections for '\count_reg[8] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(283): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(289): (vopt-2685) [TFMPC] - Too few port connections for 'sti_rd_reg'.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(289): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(294): (vopt-2685) [TFMPC] - Too few port connections for '\res_do_reg[2] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(294): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(299): (vopt-2685) [TFMPC] - Too few port connections for '\res_do_reg[4] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(299): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(300): (vopt-2685) [TFMPC] - Too few port connections for '\res_do_reg[5] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(300): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(301): (vopt-2685) [TFMPC] - Too few port connections for 'res_rd_reg'.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(301): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(302): (vopt-2685) [TFMPC] - Too few port connections for '\res_addr_reg[13] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(302): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(304): (vopt-2685) [TFMPC] - Too few port connections for '\res_addr_reg[12] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(304): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(306): (vopt-2685) [TFMPC] - Too few port connections for '\res_addr_reg[11] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(306): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(308): (vopt-2685) [TFMPC] - Too few port connections for '\res_addr_reg[10] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(308): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(310): (vopt-2685) [TFMPC] - Too few port connections for '\res_addr_reg[9] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(310): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(311): (vopt-2685) [TFMPC] - Too few port connections for '\res_addr_reg[8] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(311): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(312): (vopt-2685) [TFMPC] - Too few port connections for '\res_addr_reg[7] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(312): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(313): (vopt-2685) [TFMPC] - Too few port connections for '\res_addr_reg[6] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(313): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(314): (vopt-2685) [TFMPC] - Too few port connections for '\res_addr_reg[5] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(314): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(315): (vopt-2685) [TFMPC] - Too few port connections for '\res_addr_reg[4] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(315): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(316): (vopt-2685) [TFMPC] - Too few port connections for '\res_addr_reg[3] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(316): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(317): (vopt-2685) [TFMPC] - Too few port connections for '\res_addr_reg[2] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(317): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(318): (vopt-2685) [TFMPC] - Too few port connections for '\res_addr_reg[1] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(318): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(319): (vopt-2685) [TFMPC] - Too few port connections for '\res_addr_reg[0] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(319): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(320): (vopt-2685) [TFMPC] - Too few port connections for 'res_wr_reg'.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(320): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(321): (vopt-2685) [TFMPC] - Too few port connections for '\count_reg[13] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(321): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(323): (vopt-2685) [TFMPC] - Too few port connections for '\count_reg[11] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(323): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(324): (vopt-2685) [TFMPC] - Too few port connections for '\count_reg[12] '.  Expected 5, found 4.
+# ** Warning: /home/M10bob208/DT_DC/DT_syn.v(324): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# Loading work.testfixture(fast)
+# Loading work.DT(fast)
+# Loading work.ADDHXL(fast)
+# Loading work.CLKINVX1(fast)
+# Loading work.XOR2X1(fast)
+# Loading work.ADDHX1(fast)
+# Loading work.OAI21X1(fast)
+# Loading work.AO21X1(fast)
+# Loading work.OAI2BB1X1(fast)
+# Loading work.NOR2X1(fast)
+# Loading work.XNOR2X1(fast)
+# Loading work.NAND2X1(fast)
+# Loading work.OR2X1(fast)
+# Loading work.NAND2BX1(fast)
+# Loading work.CLKXOR2X1(fast)
+# Loading work.AND2X6(fast)
+# Loading work.AND2X2(fast)
+# Loading work.NAND2XL(fast)
+# Loading work.EDFFX1(fast)
+# Loading work.EDFFX2(fast)
+# Loading work.EDFFXL(fast)
+# Loading work.NAND4X4(fast)
+# Loading work.NOR2BX2(fast)
+# Loading work.NOR2X2(fast)
+# Loading work.OAI22X1(fast)
+# Loading work.NOR3X2(fast)
+# Loading work.OAI31X1(fast)
+# Loading work.OAI211X4(fast)
+# Loading work.CLKBUFX3(fast)
+# Loading work.INVX3(fast)
+# Loading work.XNOR2XL(fast)
+# Loading work.OAI211XL(fast)
+# Loading work.AOI22XL(fast)
+# Loading work.INVXL(fast)
+# Loading work.NOR2XL(fast)
+# Loading work.OR4XL(fast)
+# Loading work.AOI211XL(fast)
+# Loading work.AOI22X1(fast)
+# Loading work.AND3X2(fast)
+# Loading work.OAI2BB1XL(fast)
+# Loading work.OR2XL(fast)
+# Loading work.AND2XL(fast)
+# Loading work.OAI21XL(fast)
+# Loading work.NAND3X1(fast)
+# Loading work.AND2X1(fast)
+# Loading work.OAI222XL(fast)
+# Loading work.OAI22XL(fast)
+# Loading work.NOR2BX1(fast)
+# Loading work.OA22X1(fast)
+# Loading work.AOI21X1(fast)
+# Loading work.AOI2BB2X1(fast)
+# Loading work.OAI221XL(fast)
+# Loading work.AO22X1(fast)
+# Loading work.OAI211X1(fast)
+# Loading work.OA21XL(fast)
+# Loading work.NOR3X1(fast)
+# Loading work.NOR4BBX1(fast)
+# Loading work.AND3X1(fast)
+# Loading work.AND4X1(fast)
+# Loading work.AOI222XL(fast)
+# Loading work.CLKMX2X2(fast)
+# Loading work.AOI32X1(fast)
+# Loading work.AOI211X1(fast)
+# Loading work.NAND4X1(fast)
+# Loading work.NAND4BX1(fast)
+# Loading work.MXI4X1(fast)
+# Loading work.MXI2X1(fast)
+# Loading work.NOR4X1(fast)
+# Loading work.OAI31XL(fast)
+# Loading work.OR4X1(fast)
+# Loading work.NAND3BX1(fast)
+# Loading instances from DT_syn.sdf
+# Loading timing data from DT_syn.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testfixture File: /home/M10bob208/DT_DC/testfixture.v
+# Compile of tsmc13_neg.v was successful.
+# 3 compiles, 0 failed with no errors.
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+# ** Error: /home/M10bob208/DT_DC/tsmc13_neg.v(19819): $setup( negedge D:15991 ps, posedge CK &&& (Dcheck == 1):16500 ps, 695 ps );
+#    Time: 16500 ps  Iteration: 1  Instance: /testfixture/u_dut/\state_reg[2] 
+# FWPASS : Output pixel: 0 ~           0 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        1000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        2000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        3000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        4000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        5000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        6000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        7000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        8000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        9000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~       10000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~       11000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~       12000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~       13000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~       14000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~       15000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~       16000 are correct!
+# 
+#                                                      
+# 
+# Forward-Pass test PASS! 
+#                                                      
+# 
+#  Output pixel: 0 ~           0 are correct!
+# 
+#  Output pixel: 0 ~        1000 are correct!
+# 
+#  Output pixel: 0 ~        2000 are correct!
+# 
+#  Output pixel: 0 ~        3000 are correct!
+# 
+#  Output pixel: 0 ~        4000 are correct!
+# 
+#  Output pixel: 0 ~        5000 are correct!
+# 
+#  Output pixel: 0 ~        6000 are correct!
+# 
+#  Output pixel: 0 ~        7000 are correct!
+# 
+#  Output pixel: 0 ~        8000 are correct!
+# 
+#  Output pixel: 0 ~        9000 are correct!
+# 
+#  Output pixel: 0 ~       10000 are correct!
+# 
+#  Output pixel: 0 ~       11000 are correct!
+# 
+#  Output pixel: 0 ~       12000 are correct!
+# 
+#  Output pixel: 0 ~       13000 are correct!
+# 
+#  Output pixel: 0 ~       14000 are correct!
+# 
+#  Output pixel: 0 ~       15000 are correct!
+# 
+#  Output pixel: 0 ~       16000 are correct!
+# 
+# -------------------------------------------------------------
+# 
+# Congratulations!!! All data have been generated successfully!
+# 
+# ---------- The test result is ..... PASS --------------------
+# 
+#                                                      
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : /home/M10bob208/DT_DC/testfixture.v(180)
+#    Time: 1054371582 ps  Iteration: 0  Instance: /testfixture
+# 1
+# Break at /home/M10bob208/DT_DC/testfixture.v line 180
+quit -sim
+# End time: 22:19:12 on Sep 04,2021, Elapsed time: 0:02:09
+# Errors: 1, Warnings: 88
+vsim work.testfixture
+# vsim work.testfixture 
+# Start time: 22:19:30 on Sep 04,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.testfixture(fast)
+# Loading work.DT(fast)
+# Loading work.ADDHXL(fast)
+# Loading work.CLKINVX1(fast)
+# Loading work.XOR2X1(fast)
+# Loading work.ADDHX1(fast)
+# Loading work.OAI21X1(fast)
+# Loading work.AO21X1(fast)
+# Loading work.OAI2BB1X1(fast)
+# Loading work.NOR2X1(fast)
+# Loading work.XNOR2X1(fast)
+# Loading work.NAND2X1(fast)
+# Loading work.OR2X1(fast)
+# Loading work.NAND2BX1(fast)
+# Loading work.CLKXOR2X1(fast)
+# Loading work.AND2X6(fast)
+# Loading work.AND2X2(fast)
+# Loading work.NAND2XL(fast)
+# Loading work.EDFFX1(fast)
+# Loading work.EDFFX2(fast)
+# Loading work.EDFFXL(fast)
+# Loading work.NAND4X4(fast)
+# Loading work.NOR2BX2(fast)
+# Loading work.NOR2X2(fast)
+# Loading work.OAI22X1(fast)
+# Loading work.NOR3X2(fast)
+# Loading work.OAI31X1(fast)
+# Loading work.OAI211X4(fast)
+# Loading work.CLKBUFX3(fast)
+# Loading work.INVX3(fast)
+# Loading work.XNOR2XL(fast)
+# Loading work.OAI211XL(fast)
+# Loading work.AOI22XL(fast)
+# Loading work.INVXL(fast)
+# Loading work.NOR2XL(fast)
+# Loading work.OR4XL(fast)
+# Loading work.AOI211XL(fast)
+# Loading work.AOI22X1(fast)
+# Loading work.AND3X2(fast)
+# Loading work.OAI2BB1XL(fast)
+# Loading work.OR2XL(fast)
+# Loading work.AND2XL(fast)
+# Loading work.OAI21XL(fast)
+# Loading work.NAND3X1(fast)
+# Loading work.AND2X1(fast)
+# Loading work.OAI222XL(fast)
+# Loading work.OAI22XL(fast)
+# Loading work.NOR2BX1(fast)
+# Loading work.OA22X1(fast)
+# Loading work.AOI21X1(fast)
+# Loading work.AOI2BB2X1(fast)
+# Loading work.OAI221XL(fast)
+# Loading work.AO22X1(fast)
+# Loading work.OAI211X1(fast)
+# Loading work.OA21XL(fast)
+# Loading work.NOR3X1(fast)
+# Loading work.NOR4BBX1(fast)
+# Loading work.AND3X1(fast)
+# Loading work.AND4X1(fast)
+# Loading work.AOI222XL(fast)
+# Loading work.CLKMX2X2(fast)
+# Loading work.AOI32X1(fast)
+# Loading work.AOI211X1(fast)
+# Loading work.NAND4X1(fast)
+# Loading work.NAND4BX1(fast)
+# Loading work.MXI4X1(fast)
+# Loading work.MXI2X1(fast)
+# Loading work.NOR4X1(fast)
+# Loading work.OAI31XL(fast)
+# Loading work.OR4X1(fast)
+# Loading work.NAND3BX1(fast)
+# Loading instances from DT_syn.sdf
+# Loading timing data from DT_syn.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testfixture File: /home/M10bob208/DT_DC/testfixture.v
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+# ** Error: /home/M10bob208/DT_DC/tsmc13_neg.v(19819): $setup( negedge D:15991 ps, posedge CK &&& (Dcheck == 1):16500 ps, 695 ps );
+#    Time: 16500 ps  Iteration: 1  Instance: /testfixture/u_dut/\state_reg[2] 
+# FWPASS : Output pixel: 0 ~           0 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        1000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        2000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        3000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        4000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        5000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        6000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        7000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        8000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~        9000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~       10000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~       11000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~       12000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~       13000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~       14000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~       15000 are correct!
+# 
+# FWPASS : Output pixel: 0 ~       16000 are correct!
+# 
+#                                                      
+# 
+# Forward-Pass test PASS! 
+#                                                      
+# 
+#  Output pixel: 0 ~           0 are correct!
+# 
+#  Output pixel: 0 ~        1000 are correct!
+# 
+#  Output pixel: 0 ~        2000 are correct!
+# 
+#  Output pixel: 0 ~        3000 are correct!
+# 
+#  Output pixel: 0 ~        4000 are correct!
+# 
+#  Output pixel: 0 ~        5000 are correct!
+# 
+#  Output pixel: 0 ~        6000 are correct!
+# 
+#  Output pixel: 0 ~        7000 are correct!
+# 
+#  Output pixel: 0 ~        8000 are correct!
+# 
+#  Output pixel: 0 ~        9000 are correct!
+# 
+#  Output pixel: 0 ~       10000 are correct!
+# 
+#  Output pixel: 0 ~       11000 are correct!
+# 
+#  Output pixel: 0 ~       12000 are correct!
+# 
+#  Output pixel: 0 ~       13000 are correct!
+# 
+#  Output pixel: 0 ~       14000 are correct!
+# 
+#  Output pixel: 0 ~       15000 are correct!
+# 
+#  Output pixel: 0 ~       16000 are correct!
+# 
+# -------------------------------------------------------------
+# 
+# Congratulations!!! All data have been generated successfully!
+# 
+# ---------- The test result is ..... PASS --------------------
+# 
+#                                                      
+# 
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : /home/M10bob208/DT_DC/testfixture.v(180)
+#    Time: 1054371582 ps  Iteration: 0  Instance: /testfixture
+# 1
+# Break at /home/M10bob208/DT_DC/testfixture.v line 180
+# End time: 22:21:04 on Sep 04,2021, Elapsed time: 0:01:34
+# Errors: 1, Warnings: 0
